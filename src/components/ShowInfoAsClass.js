@@ -15,7 +15,7 @@ export class ShowInfoAsClass extends Component {
 			<div className="infoBox">
 				<div className="title">{this.props.title}</div>
 				<p>This is the info from the class component.</p>
-			<div className="status"><button onClick={this.handleChangeStatus}>CHANGE STATUS</button> <span>{this.state.status}</span></div>
+			<div className="status"><button onClick={this.handleChangeStatus}>CHANGE STATUS</button> <span className={this.state.status}>{this.state.status === 'approved' ? 'Approved' : 'Not Approved'}</span></div>
 				{this.props.children}
 			</div>
 		)

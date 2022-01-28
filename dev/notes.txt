@@ -1,6 +1,6 @@
-- ,, make button to toggle status between "approved" and "notApproved"
+- x make button to toggle status between "approved" and "notApproved"
 	- x make state variable status with values "approved" and "notApproved"
-	- ,, make button to toggle this value
+	- x make button to toggle this value
 		- x in function component
 		- x in class component	
-	- .. change color based on value
+	- x change color based on value

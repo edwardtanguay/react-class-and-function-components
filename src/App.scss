@@ -46,9 +46,13 @@ body {
 			}
 			.status {
 				margin: 5px 0 0 0;
-				span {
-					color: purple;
-					background: yellow;
+				span.approved {
+					font-weight: bold;
+					color: green;
+				}
+				span.notApproved {
+					font-style: italic;
+					color: red;
 				}
 			}
 		}
