@@ -2,5 +2,5 @@
 	- x make state variable status with values "approved" and "notApproved"
 	- ,, make button to toggle this value
 		- x in function component
-		- .. in class component	
-	- change color based on value
+		- x in class component	
+	- .. change color based on value
