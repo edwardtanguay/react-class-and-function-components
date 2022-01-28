@@ -6,7 +6,10 @@ function App() {
 	return (
 		<div className="App">
 			<h1>Welcome</h1>
-			<ShowInfo />
+			<ShowInfo title="The Function InfoBox">
+				<h2>More Info</h2>
+				<p>This is some more info.</p>
+			</ShowInfo>
 			<ShowInfoAsClass/>
 		</div>
 	);
