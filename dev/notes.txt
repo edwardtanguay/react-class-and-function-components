@@ -1,0 +1,3 @@
+- ,, make button to toggle status between "approved" and "notApproved"
+	- .. make state variable status with values "approved" and "notApproved"
+	- make button to toggle this value 

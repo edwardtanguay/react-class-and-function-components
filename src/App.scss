@@ -44,6 +44,12 @@ body {
 				background: #ddd;
 				max-width: 200px;
 			}
+			.status {
+				span {
+					color: purple;
+					background: yellow;
+				}
+			}
 		}
 	}
 }
